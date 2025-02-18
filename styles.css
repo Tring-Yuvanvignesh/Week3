@@ -655,12 +655,14 @@ body {
 .testimonial-box:not(:first-child) {
     flex: 1;
 }
+
 .testimonial-box img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease-in-out;
 }
+
 .testimonial-box .testimonial-content {
     position: absolute;
     bottom: 0;
@@ -751,7 +753,6 @@ body {
 /* Marquee Container */
 .marquee {
     overflow: hidden;
-    white-space: nowrap;
     position: relative;
     width: 100%;
     background: white;
@@ -762,12 +763,11 @@ body {
 .client-logos {
     display: flex;
     gap: 50px;
-    animation: marquee 10s linear infinite ;
+    animation: marquee 10s ease-in infinite ;
 }
 
 .client-logos img {
     height: 50px; 
-    object-fit: contain;
     transition: filter 0.3s ease-in-out;
 }
 
@@ -938,13 +938,5 @@ body {
     width: 90px;
     margin-right: 5px;
 } 
-
-
-/* Responsive */
-@media (max-width: 768px) {
-    .footer-container {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    }
-}
 
 
