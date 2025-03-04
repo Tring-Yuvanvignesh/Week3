@@ -379,9 +379,21 @@ body {
     margin-bottom: 10px;
 }
 
+.rating-p {
+    font-size: 20px;
+}
+
+.rating{
+    color: #ccc !important;
+}
+
 .container4 {
     margin-top: 5%;
     margin-left: 5%;
+}
+
+.hr-line {
+    color: #ccc
 }
 
 .container4-sub1 {
