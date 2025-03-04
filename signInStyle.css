@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    width: 50%;
+    background-color: #222;
+    color: white;
+    padding: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.switch-buttons {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.switch-buttons button {
+    font-family: Rajdhani;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    gap: 10px;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.switch-buttons .active {
+    background: #EBA832;
+    color: white;
+}
+
+.switch-buttons .inactive {
+    background: #FFFFFF1A;
+    color: #FFFFFF1A;
+}
+
+/* #signIn{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+#signUp{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px ;
+} */
+
+.container label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.container input {
+    background: #292929;
+    border: 1px solid #FFFFFF33;
+    width: 100%;
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    margin-bottom: 15px;
+    background: #333;
+    border: none;
+    color: white;
+    border: 1px solid #FFFFFF33
+}
+
+.container input::placeholder {
+    color: #bbb;
+}
+
+.container .checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container .checkbox input {
+
+    width: auto;
+    margin-right: 5px;
+    background: #292929;
+
+}
+
+.container .checkbox label {
+    font-family: Open Sans;
+    font-weight: 400;
+}
+
+.container .checkbox .forgot {
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.container .checkbox .forgot a {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16.34px;
+    letter-spacing: 0%;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.container .submit-btn {
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21.79px;
+    letter-spacing: 0px;
+    width: 100%;
+    background: #EBA832;
+    padding-top: 11px;
+    padding-right: 38px;
+    padding-bottom: 11px;
+    padding-left: 38px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    line-height: 21.79px;
+}
+
+.hori_line {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.hori_line p {
+    margin: 0;
+}
+
+.container .google-btn {
+    gap: 8px;
+    width: 100%;
+    background: #FFFFFF;
+    padding: 11px;
+    border: none;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 1px solid #1111111A
+}
+
+.container .signup {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+.signup {
+    border-radius: 20px;
+}
+
+.container .signup a {
+    color: #EBA832;
+    text-decoration: none;
+}
+
+.right-section {
+    width: 50%;
+    display: flex;
+    background-color: #000;
+}
+
+.right-section img {
+    max-width: 100%;
+    max-height: 100%;
+}
