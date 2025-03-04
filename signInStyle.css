@@ -5,6 +5,22 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #222;
+    z-index: 1050;
+    width: 35%;
+    display: flex;
+    padding: 15px 30px;
+}
+
+.navbar-brand img {
+    width: 150px;
+    height: auto; 
+}
+
 body {
     display: flex;
     height: 100vh;
@@ -21,7 +37,7 @@ body {
 }
 
 .switch-buttons {
-    margin-top: 70px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;

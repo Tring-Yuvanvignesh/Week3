@@ -15,7 +15,7 @@ body {
 /* Landing */
 
 #Landing {
-    background: url('./images/landing_background-croped.png') no-repeat center center;
+    background: url('./images/landing_background-croped.png');
     background-size: cover;
 }
 
@@ -70,10 +70,6 @@ body {
     height: 85vh;
 }
 
-.hero-content {
-    max-width: 500px;
-}
-
 .hero-content h1 {
     color: #FEFEFE;
     font-family: Rajdhani;
@@ -90,7 +86,6 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-    letter-spacing: 0px;
     width: 728px;
     color: #cbd5e1;
     margin: 15px 0;
@@ -124,8 +119,6 @@ body {
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
-    width: 364.066650390625;
-    height: 10;
     gap: 10px;
     padding-left: 1.4px;
 }
@@ -136,7 +129,6 @@ body {
     font-weight: 700;
     font-size: 42px;
     line-height: 53.59px;
-    letter-spacing: 0%;
 }
 
 .research-header p {
@@ -147,7 +139,6 @@ body {
     color: #bbb;
     margin-top: 10px;
     max-width: 600px;
-
 }
 
 .research-container {
@@ -178,9 +169,8 @@ body {
     font-family: Open Sans;
     font-weight: 500;
     font-size: 14px;
-    line-height: 19.07px;
+    line-height: 19px;
     letter-spacing: 36%;
-
     min-width: 362px;
 }
 
@@ -188,8 +178,7 @@ body {
     font-family: Rajdhani;
     font-weight: 600;
     font-size: 20px;
-    line-height: 25.52px;
-    letter-spacing: 0%;
+    line-height: 25px;
     margin-top: 10px;
 }
 
@@ -242,7 +231,6 @@ body {
     padding: 8px 12px;
     font-size: 16px;
     font-weight: bold;
-    text-decoration: none;
 }
 
 .slider-controls {
@@ -285,7 +273,7 @@ body {
     font-family: Open Sans;
     font-weight: 700;
     font-size: 14px;
-    line-height: 19.07px;
+    line-height: 19px;
     letter-spacing: 36%;
 }
 
@@ -293,7 +281,7 @@ body {
     font-family: Rajdhani;
     font-weight: 700;
     font-size: 42px;
-    line-height: 53.59px;
+    line-height: 53px;
 }
 
 .nav-tabs .nav-link {
@@ -320,7 +308,6 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-    letter-spacing: 0px;
     display: flex;
     position: absolute;
     color: #29292999;
@@ -343,7 +330,6 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 27px;
-    letter-spacing: 0px;
     color: #292929CC;
 }
 
@@ -354,7 +340,6 @@ body {
     font-weight: 600;
     font-size: 32px;
     line-height: 40.83px;
-    letter-spacing: 0%;
 }
 
 
@@ -382,7 +367,6 @@ body {
 .success-text .btn-warning {
     background: #EBA832;
     border: none;
-    border-radius: 0px;
 }
 
 .rating {
@@ -435,7 +419,7 @@ body {
     font-family: Open Sans;
     font-weight: 500;
     font-size: 14px;
-    line-height: 19.07px;
+    line-height: 19px;
     letter-spacing: 36%;
 }
 
@@ -443,8 +427,7 @@ body {
     font-family: Rajdhani;
     font-weight: 700;
     font-size: 42px;
-    line-height: 53.59px;
-    letter-spacing: 0%;
+    line-height: 53px;
 }
 
 .right-mov2 {
@@ -505,9 +488,6 @@ body {
     margin-top: 50px;
 }
 
-.carousel-item {
-    transition: transform 1s ease-in-out;
-}
 
 .highlight-card {
     background: rgba(255, 255, 255, 0.04);
@@ -521,17 +501,11 @@ body {
     justify-content: space-around;
 }
 
-.highlight-card img {
-    width: 61.57;
-    height: 114;
-}
-
 .highlight-title {
     font-family: Rajdhani;
     font-weight: 700;
     font-size: 32px;
-    line-height: 40.83px;
-    letter-spacing: 0px;
+    line-height: 40px;
     text-align: center;
     color: #EBA832;
 }
@@ -541,7 +515,6 @@ body {
     font-weight: 600;
     font-size: 16px;
     line-height: 25px;
-    letter-spacing: 0px;
     text-align: center;
     color: #666;
 }
@@ -585,8 +558,7 @@ body {
     font-family: Rajdhani;
     font-weight: 700;
     font-size: 42px;
-    line-height: 53.59px;
-    letter-spacing: 0%;
+    line-height: 53px;
     color: #292929;
 }
 
@@ -638,7 +610,6 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-    letter-spacing: 0px;
 }
 
 .testimonial-box:not(:first-child) .testimonial-content {
@@ -665,9 +636,6 @@ body {
 .testimonial-container:hover .testimonial-box:first-child:not(:hover) .testimonial-content {
     opacity: 0;
 } */
-
-
-
 
 
 .client-logo {
@@ -698,8 +666,7 @@ body {
     font-family: Rajdhani;
     font-weight: 700;
     font-size: 42px;
-    line-height: 53.59px;
-    letter-spacing: 0%;
+    line-height: 53px;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -708,7 +675,7 @@ body {
     font-family: Open Sans;
     font-weight: 700;
     font-size: 14px;
-    line-height: 19.07px;
+    line-height: 19px;
     letter-spacing: 36%;
     text-align: center;
     color: #EBA832;
@@ -760,8 +727,8 @@ body {
 
 .contact {
     text-align: center;
-    background: url(images/Frame.png) center/cover no-repeat, #EBA832;
-    background-blend-mode: lighten;
+    background: url(images/Frame.png) center/cover no-repeat;
+    background-color:  #EBA832;
     padding-top: 40px;
     padding-bottom: 40px;
     color: black;
@@ -772,7 +739,7 @@ body {
     font-family: Rajdhani;
     font-weight: 700;
     font-size: 42px;
-    line-height: 53.59px;
+    line-height: 53px;
     letter-spacing: 0%;
     text-align: center;
 }
@@ -796,8 +763,6 @@ body {
     background-image: url('images/Frame.png') no-repeat;
     color: white;
     font-family: Arial, sans-serif;
-    width: 1440;
-    height: 538.0052490234375;
     gap: 36px;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -809,7 +774,6 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 50px;
-    max-width: 1300px;
     margin: auto;
 }
 
@@ -836,7 +800,6 @@ body {
     font-weight: 400;
     font-size: 12px;
     line-height: 22px;
-    letter-spacing: 0px;
     color: #bbb;
     margin-bottom: 15px;
 }
@@ -877,7 +840,6 @@ body {
     font-weight: 400;
     font-size: 12px;
     line-height: 26px;
-    letter-spacing: 0%;
     color: #555;
     margin-top: 10px;
 }

@@ -61,6 +61,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
+function signIn() {
+    location.href= "signIn.html"
+}
 
 
 
