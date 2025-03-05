@@ -61,7 +61,6 @@ body {
     line-height: 30px;
 }
 
-/* Hero Section */
 .hero {
     display: flex;
     justify-content: space-between;
@@ -432,7 +431,6 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 19px;
-    letter-spacing: 36%;
 }
 
 .team_title {
@@ -693,7 +691,6 @@ body {
     color: #EBA832;
 }
 
-/* Marquee Container */
 .marquee {
     overflow: hidden;
     position: relative;
@@ -702,7 +699,6 @@ body {
     padding: 20px 0;
 }
 
-/* Logos Moving */
 .client-logos {
     display: flex;
     gap: 50px;
@@ -714,7 +710,6 @@ body {
     transition: filter 0.3s ease-in-out;
 }
 
-/* Marquee Animation */
 @keyframes marquee {
     from {
         transform: translateX(100%);
